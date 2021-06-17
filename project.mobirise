@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "[Extreme] VALIA 2 Prelander Konfirmasi",
+    "name": "[Discovery 2] Valia",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
@@ -14,55 +14,45 @@
         "dangerColor": "#ff9966",
         "mainFont": "Jost",
         "display1Font": "Jost",
-        "display1Size": "3",
+        "display1Size": "2.4",
         "display2Font": "Jost",
-        "display2Size": "1.8",
+        "display2Size": 3,
         "display5Font": "Jost",
-        "display5Size": "1",
+        "display5Size": 2,
         "display7Font": "Jost",
-        "display7Size": "1.2",
+        "display7Size": 1.2,
         "display4Font": "Jost",
         "display4Size": "1.2",
-        "isRoundedButtons": true,
+        "isRoundedButtons": false,
         "underlinedLinks": false,
         "isAnimatedOnScroll": false,
         "isScrollToTopButton": false
       },
-      "additionalSetColors": [
-        "#1259da"
-      ]
+      "additionalSetColors": []
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "5.0.29",
-    "siteFonts": [
-      {
-        "css": "'Jost', sans-serif",
-        "name": "Jost",
-        "url": "https://fonts.googleapis.com/css?family=Jost:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
-      }
-    ],
-    "imageResize": true,
-    "favicon": "@PROJECT_PATH@/assets/images/untitled-design-13-64x64.png",
+    "siteFonts": [],
+    "favicon": false,
+    "imageResize": false,
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 27,
-    "versionPublish": "5.0.29",
-    "screenshot": "screenshot.png"
+    "uniqCompNum": 5,
+    "versionPublish": "5.0.29"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "(1) Bisa COD Bayar di Tempat",
-        "meta_descr": "Bisa COD (Bayar di Tempat)",
+        "title": "Testimoni Cream Gosok Valia",
+        "meta_descr": "Pembayaran COD (Bayar Setelah Barang Sampai Dirumah) - Bayar Ke Kurir Yang Antar",
         "header_custom": "",
         "footer_custom": "",
-        "html_before": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/photo_2020-10-20_14-40-27-1-1080x1080.jpg"
+        "html_before": ""
       },
       "components": [
         {
@@ -72,57 +62,29 @@
               "padding-top": "(@paddingTop * 1rem)",
               "padding-bottom": "(@paddingBottom * 1rem)"
             },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            ".mbr-section-title": {
-              "color": "#ffffff"
-            },
-            ".mbr-section-subtitle": {
-              "color": "#bbbbbb"
-            }
-          },
-          "_name": "content4",
-          "_customHTML": "<section class=\"content4\" group=\"Content\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"12\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#1259da\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'image'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'image'\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\"><b>Produk Dewasa</b></h3>\n                <h4 class=\"mbr-section-subtitle align-center mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-5\">\n                    1 Aksi 2 Fungsi Sekaligus (Besar Panjang &amp; Tahan Lama)</h4>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\">\n                    <a class=\"btn btn-primary\" href=\"https://mobiri.se\">LEARN MORE</a>\n                    <a class=\"btn btn-primary-outline\" href=\"https://mobiri.se\">LIVE DEMO</a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "sxsrEoGGIC",
-          "_anchor": "content4-p",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
             "& when (@bg-type = 'color')": {
               "background-color": "@bg-value"
             },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            ".mbr-text, .mbr-section-btn": {
-              "color": "#232323"
-            },
-            ".card-title, .card-box": {
-              "color": "#ffe161"
-            },
-            ".mbr-text, .link-wrap": {
-              "color": "#ffffff"
+            ".image-wrap img": {
+              "width": "100%",
+              "@media (min-width: 992px)": {
+                "display": "block",
+                "margin": "auto",
+                "width": "(@imageWidth * 10%)"
+              }
             }
           },
-          "_name": "info3",
-          "_customHTML": "<section class=\"info3\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"mobirise-icons2\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background4.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#4479d9\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"card col-12 col-lg-10\">\n                <div class=\"card-wrapper\">\n                    <div class=\"card-box align-center\">\n                        <h4 class=\"card-title mbr-fonts-style align-center mb-4\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\" data-app-selector=\".card-title, .card-box\"><b>Apakah Anda Sudah Berumur 21+ Tahun?</b></h4>\n                        <p class=\"mbr-text mbr-fonts-style mb-4\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">100% Garansi, Produk Ini Terjamin.<br>Gunakanlah Secara Bijak</p>\n                        <div mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnAdd, -mbrBtnMove, -mbrBtnRemove\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-primary\" href=\"https://link.siapkirim.store/go/8e962b2d-8c6b-48a3-a6dd-6796abbab245\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-success mbr-iconfont mbr-iconfont-btn\"></span>Ya, Sudah</a></div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "svvGqc1S65",
-          "_anchor": "info3-2",
+          "_name": "header10",
+          "_customHTML": "<section class=\"header10\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"imageWidth\" title=\"Image Width\" min=\"1\" max=\"10\" step=\"1\" value=\"7\" condition=\"showImage\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <input type=\"checkbox\" title=\"Image\" name=\"showImage\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background7.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#2299aa\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.1\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-9\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Testimoni PUAS Pembeli Cream Gosok Valia\n</b></h1>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                    Intro with a picture at the bottom. Great for pro-coders for fast prototyping and small customers' projects.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-secondary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Create Free Website!</a></div>\n                <div class=\"image-wrap mt-4\" mbr-if=\"showImage\">\n                    <img src=\"@PROJECT_PATH@/assets/images/photo-2020-10-20-14-40-27-1024x1024.jpg\" alt=\"Mobirise\" title>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sAA3KdXXWH",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "header10-0"
         },
         {
           "alias": false,
@@ -130,106 +92,147 @@
             "padding-top": "(@paddingTop * 1rem)",
             "padding-bottom": "(@paddingBottom * 1rem)",
             "background-color": "@bgColor",
-            ".line": {
-              "background-color": "@lineColor",
-              "align": "center",
-              "height": "2px",
-              "margin": "0 auto"
+            ".mbr-overlay": {
+              "z-index": "1"
             },
-            ".mbr-text": {
-              "color": "#bbbbbb"
+            "@media (min-width: 992px)": {
+              ".carousel": {
+                "min-height": "(@carouselHeight * 100px)",
+                "img": {
+                  "max-height": "(@carouselHeight * 100px)",
+                  "object-fit": "contain"
+                }
+              }
+            },
+            "@media (max-width: 991px) and (min-width: 768px)": {
+              ".carousel": {
+                "min-height": "(@carouselHeight * 65px)",
+                "img": {
+                  "max-height": "(@carouselHeight * 65px)",
+                  "object-fit": "contain"
+                }
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".carousel": {
+                "min-height": "(@carouselHeight * 55px)",
+                "img": {
+                  "max-height": "(@carouselHeight * 55px)",
+                  "object-fit": "contain"
+                }
+              },
+              ".container .carousel-control": {
+                "margin-bottom": "0"
+              },
+              ".content-slider-wrap": {
+                "width": "100% !important"
+              }
+            },
+            ".carousel, .carousel-inner": {
+              "display": "flex",
+              "align-items": "center"
+            },
+            ".item-wrapper": {
+              "width": "100%"
+            },
+            ".carousel-caption": {
+              "bottom": "40px"
+            },
+            ".carousel-control:hover": {
+              "background": "#1b1b1b",
+              "color": "#fff",
+              "opacity": "1"
+            },
+            ".mobi-mbri-arrow-next": {
+              "margin-left": "5px"
+            },
+            ".mobi-mbri-arrow-prev": {
+              "margin-right": "5px"
+            },
+            ".container .carousel-indicators": {
+              "margin-bottom": "3px"
+            },
+            ".carousel-control": {
+              "top": "50%",
+              "width": "60px",
+              "height": "60px",
+              "margin-top": "-1.5rem",
+              "font-size": "22px",
+              "background-color": "rgba(0, 0, 0, 0.5)",
+              "border": "2px solid #fff",
+              "border-radius": "50%",
+              "transition": "all 0.3s",
+              "&.carousel-control-prev": {
+                "left": "0",
+                "margin-left": "2.5rem"
+              },
+              "&.carousel-control-next": {
+                "right": "0",
+                "margin-right": "2.5rem"
+              },
+              "@media (max-width: 767px)": {
+                "top": "auto",
+                "bottom": "1rem"
+              }
+            },
+            ".carousel-indicators": {
+              "position": "absolute",
+              "bottom": "0",
+              "margin-bottom": "1.5rem !important",
+              "li": {
+                "max-width": "15px",
+                "height": "15px",
+                "width": "15px",
+                "max-height": "15px",
+                "margin": "3px",
+                "background-color": "rgba(0, 0, 0, 0.5)",
+                "border": "2px solid #fff",
+                "border-radius": "50%",
+                "opacity": "0.5",
+                "transition": "all 0.3s",
+                "&.active, &:hover": {
+                  "opacity": "0.9"
+                },
+                "&::after, &::before": {
+                  "content": "none"
+                }
+              },
+              "&.ie-fix": {
+                "left": "50%",
+                "display": "block",
+                "width": "60%",
+                "margin-left": "-30%",
+                "text-align": "center"
+              },
+              "@media (max-width: 768px)": {
+                "display": "none !important"
+              }
             }
           },
-          "_name": "content6",
-          "_customHTML": "<section class=\"content6\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        \n        <input type=\"color\" name=\"lineColor\" title=\"Color\" value=\"#000000\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#000000\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <hr class=\"line\">\n                <p class=\"mbr-text align-center mbr-fonts-style my-4\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-text\"><a href=\"https://link.siapkirim.store/go/8e962b2d-8c6b-48a3-a6dd-6796abbab245\" class=\"text-info\"><i>Belum Berumur 21+ Tahun (klik disini)</i></a></p>\n                <hr class=\"line\">\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "sA0D0DrIxK",
+          "_name": "slider2",
+          "_customHTML": "<section class=\"slider2\" group=\"Sliders &amp; Galleries\">\n    <mbr-parameters>\n        <input type=\"id\" name=\"sliderId\">\n        <header>Size</header>\n        <input type=\"checkbox\" name=\"fullWidth\" title=\"Full Width\">\n        <input type=\"range\" inline=\"\" title=\"Height\" name=\"carouselHeight\" min=\"4\" max=\"12\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"8\" condition=\"!fullWidth\">\n        <header>Carousel</header>\n        <input type=\"checkbox\" title=\"Fade Effect\" name=\"fade\">\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"autoplay\">\n        <input type=\"range\" title=\"Interval\" name=\"interval\" min=\"3\" max=\"10\" value=\"5\" step=\"1\" condition=\"autoplay\">\n        <header>Slide</header>\n        <input type=\"checkbox\" title=\"Caption\" name=\"showCaption\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlaySlide\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlaySlideColor\" value=\"#232323\" condition=\"overlaySlide\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlaySlideOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlaySlide\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\" selected=\"\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}}\" mbr-class=\"{'col-lg-12':fullWidth}\">\n                <div id=\"{{sliderId}}\" class=\"carousel slide\" mbr-class=\"{'carousel-fade': fade}\" data-ride=\"{{autoplay ? 'carousel' : false}}\" data-interval=\"{{interval*1000}}\">\n                    <div class=\"mbr-overlay\" mbr-if=\"overlaySlide\" mbr-style=\"{'opacity': overlaySlideOpacity, 'background-color': overlaySlideColor}\">\n                    </div>\n                    <ol class=\"carousel-indicators\">\n                        <li data-target=\"#{{sliderId}}\" data-slide-to=\"0\" class=\"active\"></li>\n                        <li data-target=\"#{{sliderId}}\" data-slide-to=\"1\"></li><li data-target=\"#{{sliderId}}\" data-slide-to=\"2\"></li>\n                        \n                    </ol>\n                    <div class=\"carousel-inner\">\n                        \n                        <div class=\"carousel-item slider-image item active\">\n                            <div class=\"item-wrapper\">\n                                <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/2.png\" data-slide-to=\"1\">\n                                <div class=\"carousel-caption d-none d-md-block\" mbr-if=\"showCaption || showText\">\n                                    <h5 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-if=\"showCaption\" mbr-theme-style=\"display-5\">\n                                        <b>Fixed-Height Slider</b>\n                                    </h5>\n                                    <p class=\"mbr-section-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\">\n                                        Click on the image to edit slides.</p>\n                                </div>\n                            </div>\n                        </div><div class=\"carousel-item slider-image item\">\n                            <div class=\"item-wrapper\">\n                                <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/1.png\">\n                                <div class=\"carousel-caption d-none d-md-block\" mbr-if=\"showCaption || showText\">\n                                    <h5 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-if=\"showCaption\" mbr-theme-style=\"display-5\">\n                                        <b>Fixed-Height Slider</b>\n                                    </h5>\n                                    <p class=\"mbr-section-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\">\n                                        Click on the image to edit slides.</p>\n                                </div>\n                            </div>\n                        </div><div class=\"carousel-item slider-image item\">\n                            <div class=\"item-wrapper\">\n                                <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/3.png\">\n                                <div class=\"carousel-caption d-none d-md-block\" mbr-if=\"showCaption || showText\">\n                                    <h5 class=\"mbr-section-subtitle mbr-fonts-style\" mbr-if=\"showCaption\" mbr-theme-style=\"display-5\">\n                                        <b>Fixed-Height Slider</b>\n                                    </h5>\n                                    <p class=\"mbr-section-text mbr-fonts-style\" mbr-if=\"showText\" mbr-theme-style=\"display-7\">\n                                        Click on the image to edit slides.</p>\n                                </div>\n                            </div>\n                        </div>\n                        \n                    </div>\n                    <a class=\"carousel-control carousel-control-prev\" href=\"#{{sliderId}}\" role=\"button\" data-slide=\"prev\">\n                        <span class=\"mobi-mbri mobi-mbri-arrow-prev\" aria-hidden=\"true\"></span>\n                        <span class=\"sr-only\">Previous</span>\n                    </a>\n                    <a class=\"carousel-control carousel-control-next\" href=\"#{{sliderId}}\" role=\"button\" data-slide=\"next\">\n                        <span class=\"mobi-mbri mobi-mbri-arrow-next\" aria-hidden=\"true\"></span>\n                        <span class=\"sr-only\">Next</span>\n                    </a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sAA4kxVzrn",
+          "_anchor": "slider2-3",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content6-q"
+          "_params": {}
         },
         {
           "alias": false,
           "_styles": {
             "padding-top": "(@paddingTop * 1rem)",
             "padding-bottom": "(@paddingBottom * 1rem)",
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            ".row-links": {
-              "width": "100%",
-              "justify-content": "center"
-            },
-            ".social-row": {
-              "width": "100%",
-              "justify-content": "center"
-            },
-            ".media-container-row": {
-              "flex-direction": "column",
-              "justify-content": "center",
-              "align-items": "center",
-              ".foot-menu": {
-                "list-style": "none",
-                "display": "flex",
-                "justify-content": "center",
-                "flex-wrap": "wrap",
-                "padding": "0",
-                "margin-bottom": "0",
-                "li": {
-                  "padding": "0 1rem 1rem 1rem",
-                  "p": {
-                    "margin": "0"
-                  }
-                }
-              },
-              ".social-list": {
-                "padding-left": "0",
-                "margin-bottom": "0",
-                "list-style": "none",
-                "display": "flex",
-                "flex-wrap": "wrap",
-                "justify-content": "flex-end",
-                ".mbr-iconfont-social": {
-                  "font-size": "1.5rem",
-                  "color": "#ffffff"
-                },
-                ".soc-item": {
-                  "margin": "0 .5rem"
-                },
-                "a": {
-                  "margin": "0",
-                  "opacity": ".5",
-                  "transition": ".2s linear",
-                  "&:hover": {
-                    "opacity": "1"
-                  }
-                },
-                "@media (max-width: 767px)": {
-                  "-webkit-justify-content": "center",
-                  "justify-content": "center"
-                }
-              },
-              ".row-copirayt": {
-                "word-break": "break-word",
-                "width": "100%",
-                "p": {
-                  "width": "100%"
-                }
-              }
-            }
+            "background-color": "@bgColor"
           },
-          "_name": "footer3",
-          "_customHTML": "<section class=\"footer3\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <header>Show/Hide</header>\n        <input type=\"range\" inline title=\"Menu Items\" name=\"menuItems\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Social Items\" name=\"socialItems\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background8.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#1259da\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"row row-links\" mbr-if=\"menuItems > 0\">\n                <ul class=\"foot-menu\" mbr-list mbr-list-grow=\"menuItems\">\n                    <li mbr-text class=\"foot-menu-item mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\"foot-menu-item\">\n                        <a class=\"text-white\" href=\"#\" target=\"_blank\">About us</a>\n                    </li>\n                    \n                    \n                    \n                    \n                </ul>\n            </div>\n            <div class=\"row social-row\" mbr-if=\"socialItems > 0\">\n                <div mbr-list mbr-list-grow=\"socialItems\" class=\"social-list align-right pb-2\">\n                    <div class=\"soc-item\">\n                        <a href=\"https://www.facebook.com/willisthandmade\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-facebook socicon\"></span>\n                        </a>\n                    </div>\n                    \n                    \n                    \n                    \n                    \n                </div>\n            </div>\n            <div class=\"row row-copirayt\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style mbr-white align-center\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\">\n                    © Copyright 2021 Cream Wik Wik. All Rights Reserved.<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_cid": "svvGF9Os6L",
-          "_anchor": "footer3-3",
+          "_name": "content11",
+          "_customHTML": "<section class=\"content11\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#ffffff\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"https://valia.siapkirim.store/\" data-app-placeholder=\"Type Text\">Testi Lainnya</a>\n                    <a class=\"btn btn-danger\" href=\"https://bayardirumah.siapkirim.store/product/valia-special-cream-for-man/wozefa\" data-app-placeholder=\"Type Text\">PESAN LANGSUNG</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "sAA6mEp7dZ",
           "_protectedParams": [],
-          "_global": true,
-          "_once": "footers",
-          "_params": {}
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content11-4"
         }
       ]
     }
